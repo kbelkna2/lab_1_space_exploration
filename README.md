@@ -1,5 +1,8 @@
 # space_exploration
 
+Lab Practice #5: Structuring the content of your website
+https://kbelkna2.github.io/lab_space_exploration/
+
 Lab Practice #3: Visual Literacy
 https://www.figma.com/file/hXgm47Yh18Oc4KqyUixBe5/RIP-Pluto?type=design&node-id=0-1&mode=design&t=8XGp9qvSoyJHFvkJ-0
 
