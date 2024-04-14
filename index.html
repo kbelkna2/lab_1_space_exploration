@@ -28,10 +28,10 @@
                 transform: translate(-50%, -50%);
             }
 
-        @media (min-width: 960) {
+        @media (min-width: 200) {
             .page-title {
                 position: absolute;
-                font-size:.025rem;
+                font-size: calc(.05rem + .05vw);
                 top: 35%;
                 left: 50%;
                 transform: translate(-50%, -50%);
@@ -47,10 +47,10 @@
             width: auto;
         }
 
-        @media (min-width: 960) {
+        @media (min-width: 200) {
             .tag {
                 position: absolute;
-                font-size: rem;
+                font-size: calc(.025rem + .025vw);
                 top: 35%;
                 left: 50%;
                 transform: translate(-50%, -50%);
@@ -60,10 +60,12 @@
         .section-title {
             font-weight: bold;
             text-align: center;
-            padding: 25px;
+            margin-top: 10px;
+            padding-top: 25px;
         }
 
-        .fig{
+        .fig {
+            text-align: center;
             width: auto;
             padding: 25px;
             margin: 10px;
@@ -71,6 +73,7 @@
 
         .fig-title {
             font-weight: bold;
+            text-align: center;
         }
 
         .fig-caption {
@@ -84,7 +87,7 @@
             margin: auto;
         }
 
-        .footer{
+        .footer {
             background-color: black;
             font-weight: bold;
             text-align: center;
@@ -113,16 +116,16 @@
             <article class="col-sm-4">
                 <figure class="fig">
                     <img src="img/pluto-heart.jpg" class="img-circle" title="Pluto's heart color" width="100%"
-                       height="100%" alt="Color image of the heart of Pluto">
+                        height="100%" alt="Color image of the heart of Pluto">
                     <figcaption class="fig-caption">
                         <h3 class="fig-title">The Discovery</h3>
-                        February 18, 1930 by Clyde Tombaugh at Lowell Observatory
+                        February 18, 1930 <br> by Clyde Tombaugh <br> at Lowell Observatory
                     </figcaption>
                 </figure>
             </article>
 
             <article class="col-sm-4">
-                <figure class="text-center">
+                <figure class="fig">
                     <img src="img/roman-god-pluto.jpg" class="img-circle" title="Roman God Pluto" width="100%"
                         height="100%" alt="Depiction of the Roman god of death Pluto">
                     <figcaption class="fig-caption">
@@ -134,12 +137,12 @@
             </article>
 
             <article class="col-sm-4">
-                <figure class="text-center">
+                <figure class="fig">
                     <img src="img/sailor-pluto.jpg" class="img-circle" title="Sailor Pluto" width="100%" height="100%"
                         alt="Image of the Sailor Scout, Sailor Pluto, with her staff, the Garnet Rod">
                     <figcaption class="fig-caption">
                         <h3 class="fig-title">The Lore</h3>
-                        Roman & Greek myths as well as modern stories
+                        Ancient Roman & Greek myths <br> as well as modern stories. Think - Lore Olympus, Percy Jackson, and of course Sailor Moon
                     </figcaption>
                 </figure>
             </article>
@@ -149,7 +152,7 @@
             <h2 class="section-title">The Fall</h2>
 
             <article class="col-sm-6">
-                <figure class="text-center">
+                <figure class="fig">
                     <img src="img/pluto-broken-heart.jpg" class="img-circle" title="Pluto's Broken Heart" width="75%"
                         height="75%" alt="Cartoon Pluto crying with a broken heart">
                     <figcaption class="fig-caption">
@@ -161,7 +164,7 @@
             </article>
 
             <article class="col-sm-6">
-                <figure class="text-center">
+                <figure class="fig">
                     <img src="img/pluto-still-a-planet-in-my-heart.jpg" class="img-circle"
                         title="Still a planet in my heart" width="75%" height="75%"
                         alt="Image of sad cartoon pluto with text reading: Pluto still a planet in my heart">
