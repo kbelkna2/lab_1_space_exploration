@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    
+
     <!-- Inline CSS -->
     <style>
         .header {
@@ -18,14 +18,24 @@
             font-weight: bold;
             text-align: center;
             color: white;
-         }
+        }
 
         .page-title {
-            position: absolute;
-            font-size: calc(1rem + 1.5vw);
-            top: 35%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+                position: absolute;
+                font-size: calc(1rem + 1.5vw);
+                top: 35%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+        @media (min-width: 960) {
+            .page-title {
+                position: absolute;
+                font-size: calc(.5rem + .5vw);
+                top: 35%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
         }
 
         .tag {
@@ -35,6 +45,16 @@
             left: 50%;
             transform: translate(-50%, -50%);
             width: auto;
+        }
+
+        @media (min-width: 960) {
+            .tag {
+                position: absolute;
+                font-size: calc(.25rem + .25vw);
+                top: 35%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
         }
 
         .section-title {
