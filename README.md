@@ -1,7 +1,7 @@
 # space_exploration
 
 Midterm Assessment #2
-https://kbelkna2.github.io/lab_space_exploration/
+https://kbelkna2.github.io/lab_space_exploration/index.html
 
 Lab Practice #5: Structuring the content of your website
 https://kbelkna2.github.io/lab_space_exploration/
